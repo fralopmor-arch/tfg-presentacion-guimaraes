@@ -40,3 +40,13 @@ Al ejecutar ese comando, se abrirá una pestaña en tu navegador con el dashboar
 ## 5. Detener la aplicación
 
 Para cerrar el dashboard, vuelve a la terminal y pulsa `Ctrl + C`.
+
+
+##License
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+
+This repository contains the Final Year Project (TFG) by Francisco de Asis Lopez Moreno.
+
+License: This work is licensed under a Creative Commons Attribution‑NonCommercial‑NoDerivatives 4.0 International License. See https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+SPDX-License-Identifier: CC-BY-NC-ND-4.0
