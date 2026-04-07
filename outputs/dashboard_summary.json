@@ -1,0 +1,59 @@
+{
+  "project": "Guimaraes Method Dashboard",
+  "runtime_data_policy": {
+    "source_directory": "outputs/",
+    "rule": "The dashboard reads exclusively from files in outputs/ at runtime.",
+    "scripts_role": "scripts/ are upstream generators only and are not required for dashboard execution."
+  },
+  "main_data_sources": [
+    "outputs/w22_ie2_validation.csv",
+    "outputs/w22_ie5_validation.csv",
+    "outputs/w22_ie2_params.csv",
+    "outputs/w22_ie5_params.csv",
+    "outputs/typical_models_by_group.json",
+    "outputs/typical_params_by_group.csv",
+    "outputs/run_evaluation.md"
+  ],
+  "dashboard_sections": [
+    "Summary",
+    "Validation",
+    "Typical models",
+    "Motor case"
+  ],
+  "key_validation_metrics": [
+    "MAPE",
+    "MAE",
+    "RMSE",
+    "R2",
+    "slope",
+    "residuals"
+  ],
+  "grouping_filters": [
+    "efficiency_class",
+    "starting_torque_category",
+    "manufacturer",
+    "poles",
+    "power_band"
+  ],
+  "typical_model_parameters": [
+    "r1",
+    "x1",
+    "r2_rated",
+    "r20",
+    "x2_rated",
+    "x20",
+    "r_m",
+    "x_m"
+  ],
+  "recommended_outputs_to_export": [
+    "dashboard_summary.json",
+    "dashboard_index.csv",
+    "dashboard_groups.csv"
+  ],
+  "implementation_priority": [
+    "Validation view",
+    "Typical models view",
+    "Individual case",
+    "Visual improvements and extra exports"
+  ]
+}

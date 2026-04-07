@@ -1,0 +1,42 @@
+# Proyecto Dashboard
+
+Este proyecto incluye un dashboard hecho con Streamlit. La forma recomendada de usarlo en cualquier ordenador es seguir estos pasos.
+
+## 1. Descargar el proyecto
+
+Puedes obtener el proyecto de dos formas:
+
+1. Descargar el repositorio como `.zip` desde GitHub. Esta opción suele ser la más sencilla.
+2. Clonarlo con Git:
+
+```bash
+git clone <URL_DEL_REPOSITORIO>
+```
+
+## 2. Abrirlo en VS Code
+
+Abre la carpeta del proyecto en Visual Studio Code para trabajar con comodidad.
+
+## 3. Crear un entorno virtual e instalar dependencias
+
+En la terminal de VS Code, crea y activa un entorno virtual de Python. Después instala las dependencias del archivo `requirements.txt`.
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+## 4. Ejecutar el dashboard
+
+Lanza la aplicación con Streamlit:
+
+```bash
+streamlit run dashboard/app.py
+```
+
+Al ejecutar ese comando, se abrirá una pestaña en tu navegador con el dashboard funcionando en `localhost`.
+
+## 5. Detener la aplicación
+
+Para cerrar el dashboard, vuelve a la terminal y pulsa `Ctrl + C`.
