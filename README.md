@@ -1,19 +1,30 @@
-# Guimarães Method Dashboard ⚡
+﻿# Guimarães Method Dashboard ⚡
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-FF4B4B.svg?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Charts-3F4F75.svg?logo=plotly&logoColor=white)](https://plotly.com/)
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![TFG Report](https://img.shields.io/badge/TFG%20Report-PDF-EC1C24.svg?logo=adobeacrobatreader&logoColor=white)](Memoria-Francisco-de-As%C3%ADs-L%C3%B3pez-Moreno-22.07.pdf)
 
 An interactive web dashboard built with **Streamlit** for the analysis, estimation, and validation of equivalent circuit parameters in induction motors using the **Guimarães method**.
 
 Developed as part of the **Final Year Project (TFG)** by *Francisco de Asís López Moreno*.
+
+> 📖 **Read the Complete Thesis / Memoria:** [Memoria-Francisco-de-Asís-López-Moreno-22.07.pdf](Memoria-Francisco-de-As%C3%ADs-L%C3%B3pez-Moreno-22.07.pdf)
 
 ---
 
 ## 📸 Preview
 
 ![Guimarães Method Dashboard Preview](image.png)
+
+---
+
+## 📖 Project Documentation & Thesis
+
+The full documentation and academic memory for this project are included in the repository:
+
+- 📄 **[TFG Thesis Document (PDF)](Memoria-Francisco-de-As%C3%ADs-L%C3%B3pez-Moreno-22.07.pdf)**: Detailed dissertation covering mathematical derivations, parameter extraction algorithm, experimental validation, and comparative analysis across IEC efficiency classes.
 
 ---
 
@@ -49,6 +60,7 @@ The dashboard is structured into four main analytical views:
 │       ├── typical_models.py
 │       └── motor_case.py
 ├── outputs/                 # Model parameters, validation metrics, and plots (CSV/JSON/PNG)
+├── Memoria-Francisco-de-Asís-López-Moreno-22.07.pdf  # Final Year Project (TFG) Report
 ├── requirements.txt         # Project dependencies
 ├── image.png                # Dashboard interface preview screenshot
 └── README.md                # Project documentation
